@@ -127,3 +127,10 @@ config SND_PISOUND
 	depends on SND_BCM2708_SOC_I2S || SND_BCM2835_SOC_I2S
 	help
 	  Say Y or M if you want to add support for Blokas Labs pisound.
+
+config SND_SONOMKR_CARD
+	tristate "Support for the SonoMKR Audio Card"
+	depends on SND_BCM2708_SOC_I2S || SND_BCM2835_SOC_I2S
+	select SND_SOC_WM8782
+	help
+	  Say Y or M if you want to add support for SonoMKR Audio Card.

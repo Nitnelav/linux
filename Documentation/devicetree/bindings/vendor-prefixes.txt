@@ -215,6 +215,7 @@ snps	Synopsys, Inc.
 socionext	Socionext Inc.
 solidrun	SolidRun
 solomon        Solomon Systech Limited
+sonomkr        SonoMKR Project Team
 sony	Sony Corporation
 spansion	Spansion Inc.
 sprd	Spreadtrum Communications Inc.
